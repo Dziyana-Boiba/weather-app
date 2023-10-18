@@ -1,7 +1,7 @@
 # Weather Sunshine
 
 Weather App built with React.
-[Live Demo](https://https://db-weathersunshine.netlify.app/)
+[Live Demo](https://db-weathersunshine.netlify.app/)
 
 ## Tech Stack
 
