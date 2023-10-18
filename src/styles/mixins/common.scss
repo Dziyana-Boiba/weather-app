@@ -1,0 +1,16 @@
+@mixin flex($direction, $justify, $align, $gap: 0) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
+
+@mixin font($size, $weight, $height, $align, $space: nowrap) {
+  font-family: 'Poppins', 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  text-align: $align;
+  white-space: $space;
+}

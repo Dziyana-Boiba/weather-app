@@ -1,0 +1,10 @@
+@use '../../styles/mixins/common';
+
+.error {
+  @include common.flex(column, center, center);
+  @include common.font(20px, 400, 2, center, normal);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
