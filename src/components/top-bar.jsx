@@ -48,8 +48,7 @@ export const TopBar = ({ onSearchChange, location }) => {
       ...provided,
       width: '100%',
       backgroundColor: state.isFocused ? 'rgba(247, 243, 243, 0.2)' : 'transparent',
-      color: state.isFocused ? 'white' : '#fff',
-      fontFamily: 'Open Sans'
+      color: state.isFocused ? 'white' : '#fff'
     }),
     menuList: (provided, state) => ({
       ...provided,

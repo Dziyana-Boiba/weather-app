@@ -10,10 +10,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   min-height: 100vh;
-  background-image: url('./assets/bg-pan.png');
+  /*  background-image: url('./assets/bg-pan.png');
   background-position: top right;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
+  background: rgb(13, 84, 107);
+  background: linear-gradient(130deg, rgb(13, 84, 107) 0%, rgb(80, 21, 68) 100%);
 }
 
 #root {
